@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Plain Old OSGi Server" uid="com.weltevree.poos.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Plain Old OSGi Server" uid="com.weltevree.polos.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
 
    <configIni use="default">
@@ -22,7 +22,7 @@
    <windowImages/>
 
 
-   <launcher name="poos">
+   <launcher name="polos">
       <solaris/>
       <win useIco="false">
          <bmp/>
@@ -38,7 +38,7 @@
    </plugins>
 
    <features>
-      <feature id="com.weltevree.poos.feature" version="1.0.0.qualifier" installMode="root"/>
+      <feature id="com.weltevree.polos.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.equinox.core.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
    </features>

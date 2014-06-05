@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>com.weltevree.poos.parent</artifactId>
+	<artifactId>com.weltevree.polos.parent</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -117,10 +117,10 @@
 			</plugin>
 		</plugins>
 	</build>
-	<groupId>poos</groupId>
+	<groupId>polos</groupId>
 	<modules>
-		<module>../com.weltevree.poos.feature</module>
-		<module>../com.weltevree.poos.product</module>
+		<module>../com.weltevree.polos.feature</module>
+		<module>../com.weltevree.polos.product</module>
 		<module>../org.apache.felix.webconsole</module>
 	</modules>
 </project>
