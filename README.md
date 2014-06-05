@@ -36,7 +36,7 @@ to make it executable and run it by
      
 ### Opening the console
 
-     [http://localhost:8888/system/console](http://localhost:8888/system/console) // replace localhost as needed
+     http://localhost:8888/system/console // replace localhost as needed
      user: admin
      pass: admin
 
