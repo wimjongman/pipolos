@@ -1,32 +1,32 @@
-### POOS - Plain Old OSGi Server
+### POLOS - Plain Old OSGi Server
 This minimal OSGi server contains
 
 * Equinox
 * Jetty
 * Felix Webconsole
 
-I use it to bootstrap development on the Raspberry Pi.
+Multifunctional basic OSGi runtime. I use it to bootstrap development on the Raspberry Pi.
 
 ### Build
 
-     git clone https://github.com/wimjongman/poos.git
+     git clone https://github.com/wimjongman/polos.git
      mvn verify
 
 ### Run
 
 Find the product of your choice in directory
 
-     com.weltevree.poos.product\target\products\com.weltevree.poos.product 
+     com.weltevree.polos.product\target\products\com.weltevree.polos.product 
 
 ### Run on Raspberry
 
 Install Java and unpack the 
 
-     poos-linux.gtk.x86.zip 
+     polos-linux.gtk.x86.zip 
      
 file into a directory of your choice. 
 
-     chmod a+x pipoos
+     chmod a+x pipolos
      ./pipoos
      
 ### Opening the console
@@ -34,3 +34,6 @@ file into a directory of your choice.
      http://localhost:8888/system/console
      user: admin
      pass: admin
+
+### See Also
+Bryan Hunts work @ [https://github.com/BryanHunt/bndtools-equinox-app-kit](https://github.com/BryanHunt/bndtools-equinox-app-kit)
