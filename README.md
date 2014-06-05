@@ -32,3 +32,5 @@ file into a directory of your choice.
 ### Opening the console
 
      http://localhost:8888/system/console
+     user: admin
+     pass: admin
