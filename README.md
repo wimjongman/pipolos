@@ -32,7 +32,7 @@ file into a directory of your choice. Then
      
 to make it executable and run it by
 
-     ./pipoos
+     ./pipolos
      
 ### Opening the console
 
