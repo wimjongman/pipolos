@@ -1,5 +1,5 @@
 ### POLOS - Plain Old OSGi Server         <img style="float: right" src="https://raw.githubusercontent.com/wimjongman/polos/master/polos.png" height="50"/>
-Starter kit for building OSGi / Equinox applications with Eclipse PDE
+Incubation kit for building OSGi / Equinox applications with Eclipse PDE
 
 This minimal OSGi server contains:
 
