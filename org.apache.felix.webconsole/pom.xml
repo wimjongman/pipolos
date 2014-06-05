@@ -10,6 +10,6 @@
   </parent>
   <artifactId>org.apache.felix.webconsole</artifactId>
   <version>4.2.2.all</version>
-  <packaging>eclipse-project</packaging>
+  <packaging>eclipse-plugin</packaging>
   <groupId>polos</groupId>
 </project>
