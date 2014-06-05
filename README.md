@@ -9,7 +9,7 @@ I use it to bootstrap development on the Raspberry Pi.
 
 ### Build
 
-     git clone 
+     git clone https://github.com/wimjongman/poos.git
      mvn verify
 
 ### Run
