@@ -1,4 +1,4 @@
-# POOS - Plain Old OSGi Server
+### POOS - Plain Old OSGi Server
 This minimal OSGi server contains
 
 * Equinox
@@ -7,20 +7,28 @@ This minimal OSGi server contains
 
 I use it to bootstrap development on the Raspberry Pi.
 
-# Build
+### Build
+
      git clone 
      mvn verify
 
-# Run
+### Run
+
 Find the product of your choice in directory
+
      com.weltevree.poos.product\target\products\com.weltevree.poos.product 
 
-# Run on Raspberry
+### Run on Raspberry
+
 Install Java and unpack the 
+
      poos-linux.gtk.x86.zip 
+     
 file into a directory of your choice. 
+
      chmod a+x pipoos
      ./pipoos
      
-# Opening the console
+### Opening the console
+
      http://localhost:8888/system/console
