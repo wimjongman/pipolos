@@ -12,6 +12,7 @@ Multifunctional basic OSGi runtime. I use it to bootstrap development on the Ras
 ### Build
 
      git clone https://github.com/wimjongman/polos.git
+     cd polos
      mvn verify
 
 ### Run
