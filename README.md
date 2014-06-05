@@ -1,5 +1,7 @@
 ### POLOS - Plain Old OSGi Server
-This minimal OSGi server contains
+Starter kit for building OSGi / Equinox applications with Eclipse PDE
+
+This minimal OSGi server contains:
 
 * Equinox
 * Jetty
@@ -24,14 +26,17 @@ Install Java and unpack the
 
      polos-linux.gtk.x86.zip 
      
-file into a directory of your choice. 
+file into a directory of your choice. Then
 
      chmod a+x pipolos
+     
+to make it executable and run it by
+
      ./pipoos
      
 ### Opening the console
 
-     http://localhost:8888/system/console
+     [http://localhost:8888/system/console](http://localhost:8888/system/console) // replace localhost as needed
      user: admin
      pass: admin
 
