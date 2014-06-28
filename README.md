@@ -42,4 +42,4 @@ to make it executable and run it by
      pass: admin
 
 ### See Also
-Bryan Hunts work @ [https://github.com/BryanHunt/bndtools-equinox-app-kit](https://github.com/BryanHunt/bndtools-equinox-app-kit)
+Bryan Hunts work @ [https://github.com/BryanHunt/bndtools-equinox-app-kit](https://github.com/BryanHunt/bndtools-equinox-app-kit) (simmilar idea but not related)
