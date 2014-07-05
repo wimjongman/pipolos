@@ -41,6 +41,7 @@
       <feature id="com.weltevree.polos.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.equinox.core.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
+      <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
    </features>
 
    <configurations>
