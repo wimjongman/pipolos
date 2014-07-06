@@ -3,7 +3,6 @@
 
 <product name="Plain Old OSGi Server" uid="com.weltevree.polos.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
-
    <configIni use="default">
    </configIni>
 
@@ -21,7 +20,6 @@
 
    <windowImages/>
 
-
    <launcher name="polos">
       <solaris/>
       <win useIco="false">
@@ -29,10 +27,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
    </plugins>
@@ -42,6 +38,7 @@
       <feature id="org.eclipse.equinox.core.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
       <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
+      <feature id="com.weltevree.polos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
    </features>
 
    <configurations>
@@ -52,6 +49,7 @@
       <plugin id="org.eclipse.equinox.http.jetty" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.ecf.osgi.services.distribution" autoStart="true" startLevel="4" />
    </configurations>
 
 </product>

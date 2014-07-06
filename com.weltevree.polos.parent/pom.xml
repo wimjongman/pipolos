@@ -19,10 +19,17 @@
 
 	<repositories>
 		<repository>
-			<id>kepler</id>
+			<id>luna</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/luna</url>
 		</repository>
+		
+		<repository>
+			<id>ecf-latest</id>
+			<url>http://download.ecf-project.org/repo/C-HEAD-sdk.feature/lastSuccessful/archive/site.p2/</url>
+			<layout>p2</layout>
+		</repository>
+		
 	</repositories>
 
 
@@ -112,6 +119,7 @@
 	<groupId>polos</groupId>
 	<modules>
 		<module>../com.weltevree.polos.feature</module>
+		<module>../com.weltevree.polos.ecf.remoteservices.feature</module>
 		<module>../com.weltevree.polos.product</module>
 		<module>../org.apache.felix.webconsole</module>
 	</modules>
