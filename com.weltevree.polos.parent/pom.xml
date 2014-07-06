@@ -18,19 +18,11 @@
 	</pluginRepositories>
 
 	<repositories>
-
-		<repository>
-			<id>ecf-latest</id>
-			<url>http://download.ecf-project.org/repo/C-HEAD-sdk.feature/lastSuccessful/archive/site.p2/</url>
-			<layout>p2</layout>
-		</repository>
-
 		<repository>
 			<id>kepler</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/luna</url>
 		</repository>
-
 	</repositories>
 
 
