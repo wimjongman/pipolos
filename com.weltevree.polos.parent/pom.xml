@@ -119,10 +119,12 @@
 	<groupId>polos</groupId>
 	<modules>
 		<module>../com.weltevree.polos.feature</module>
-		<module>../com.weltevree.polos.ecf.remoteservices.feature</module>
 		<module>../com.weltevree.polos.product</module>
 		<module>../org.apache.felix.webconsole</module>
+
+		<module>../com.weltevree.polos.ecf.remoteservices.feature</module>
 		<module>../com.pi4j</module>
 		<module>../com.pi4j.feature</module>
+
 	</modules>
 </project>

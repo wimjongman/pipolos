@@ -39,17 +39,18 @@
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
       <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
       <feature id="com.weltevree.polos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
+      <feature id="com.pi4j.feature" version="1.0.0.qualifier"/>
    </features>
 
    <configurations>
       <plugin id="org.apache.felix.webconsole" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.ecf.osgi.services.distribution" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.http.jetty" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator" autoStart="true" startLevel="0" />
-      <plugin id="org.eclipse.ecf.osgi.services.distribution" autoStart="true" startLevel="4" />
    </configurations>
 
 </product>
