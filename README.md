@@ -7,6 +7,11 @@ This minimal OSGi server contains:
 * Jetty
 * Felix Webconsole
 
+In addition, but can be removed from the build, it contains
+
+* ECF Remote Services
+* [PI4J](https://github.com/Pi4J/pi4j/)
+
 Multifunctional basic OSGi runtime. I use it to bootstrap development on the Raspberry Pi.
 
 ### Build
