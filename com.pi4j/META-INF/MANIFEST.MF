@@ -4,11 +4,12 @@ Bundle-Name: Pi4j
 Bundle-SymbolicName: com.pi4j
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-ClassPath: lib/pi4j-core.jar,
- lib/pi4j-device.jar,
- lib/pi4j-gpio-extension.jar,
- lib/pi4j-service.jar,
+Bundle-ClassPath: pi4j-0.0.5/pi4j-core.jar,
+ pi4j-0.0.5/pi4j-device.jar,
+ pi4j-0.0.5/pi4j-gpio-extension.jar,
+ pi4j-0.0.5/pi4j-service.jar,
  .
+Bundle-Activator: com.pi4j.service.osgi.Activator
 Export-Package: com.pi4j.component,
  com.pi4j.component.access,
  com.pi4j.component.lcd,
@@ -62,4 +63,3 @@ Export-Package: com.pi4j.component,
  com.pi4j.temperature,
  com.pi4j.util,
  com.pi4j.wiringpi
-Bundle-Activator: com.pi4j.service.osgi.Activator
