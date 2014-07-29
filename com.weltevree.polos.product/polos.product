@@ -39,7 +39,8 @@
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
       <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
       <feature id="com.weltevree.polos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
-      <feature id="com.pi4j.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.ecf.raspberrypi.gpio.feature"/>
+      <feature id="org.eclipse.ecf.raspberrypi.gpio.pi4j.feature"/>
    </features>
 
    <configurations>

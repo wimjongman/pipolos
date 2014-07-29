@@ -19,6 +19,12 @@
 
 	<repositories>
 		<repository>
+			<id>ecf-gpio</id>
+			<layout>p2</layout>
+			<url>https://hudson.eclipse.org/ecf/job/C-GPIO-PI4J/lastSuccessfulBuild/artifact/repository/</url>
+		</repository>
+		
+		<repository>
 			<id>luna</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/luna</url>
@@ -121,10 +127,6 @@
 		<module>../com.weltevree.polos.feature</module>
 		<module>../com.weltevree.polos.product</module>
 		<module>../org.apache.felix.webconsole</module>
-
 		<module>../com.weltevree.polos.ecf.remoteservices.feature</module>
-		<module>../com.pi4j</module>
-		<module>../com.pi4j.feature</module>
-
 	</modules>
 </project>
