@@ -67,6 +67,9 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
+					<resolver>p2</resolver>
+					<ignoreTychoRepositories>true</ignoreTychoRepositories>
+					<pomDependencies>consider</pomDependencies>
 					<!-- <allowConflictingDependencies>true</allowConflictingDependencies> -->
 					<environments>
 						<environment>
@@ -126,7 +129,11 @@
 	<modules>
 		<module>../com.weltevree.polos.feature</module>
 		<module>../com.weltevree.polos.product</module>
-		<module>../org.apache.felix.webconsole</module>
-		<module>../com.weltevree.polos.ecf.remoteservices.feature</module>
+		<!-- can be removed from build and product -->
+		<module>../extras/org.apache.felix.webconsole</module>
+		<module>../extras/org.apache.felix.webconsole.feature</module>
+		<module>../extras/org.apache.felix.fileinstall</module>
+		<module>../extras/org.apache.felix.fileinstall.feature</module>
+		<module>../extras/com.weltevree.polos.ecf.remoteservices.feature</module>
 	</modules>
 </project>

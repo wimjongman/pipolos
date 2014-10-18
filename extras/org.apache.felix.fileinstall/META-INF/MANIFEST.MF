@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Felix File Install
+Bundle-SymbolicName: org.apache.felix.fileinstall
+Bundle-Version: 3.4.0.qualifier
+Bundle-Vendor: Apache
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: org.apache.felix.fileinstall-3.4.0.jar,
+ .
+Export-Package: org.apache.felix.cm.file,
+ org.apache.felix.fileinstall,
+ org.apache.felix.fileinstall.internal,
+ org.apache.felix.utils.collections,
+ org.apache.felix.utils.manifest,
+ org.apache.felix.utils.properties,
+ org.apache.felix.utils.version

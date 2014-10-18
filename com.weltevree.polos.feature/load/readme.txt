@@ -1,0 +1,1 @@
+This is a convenience directory created for the Felix fileinstall bundle.
