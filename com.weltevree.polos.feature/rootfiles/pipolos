@@ -7,7 +7,7 @@ debugOpts="-agentlib:jdwp=transport=dt_socket,address=4444,server=y,suspend=y"
 if [ -z "$1" ]; then
         java ${javaOpts} -cp ${cp} org.eclipse.equinox.launcher.Main  ${opts}
 elif [ $1 = "-debug" ]; then
-        echo "java ${javaOpts}  ${debugOpts} -cp ${cp} org.eclipse.equinox.launcher.Main ${opts}
+        echo "java ${javaOpts}  ${debugOpts} -cp ${cp} org.eclipse.equinox.launcher.Main ${opts}"
         java ${javaOpts}  ${debugOpts} -cp ${cp} org.eclipse.equinox.launcher.Main ${opts}
 else
     echo "invalid option: ${1}"

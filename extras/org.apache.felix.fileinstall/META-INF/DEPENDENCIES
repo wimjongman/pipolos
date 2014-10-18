@@ -1,0 +1,30 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Felix File Install
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix Configuration Admin Service (http://felix.apache.org/org.apache.felix.configadmin/) org.apache.felix:org.apache.felix.configadmin:bundle:1.2.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix Utils (http://felix.apache.org/org.apache.felix.utils/) org.apache.felix:org.apache.felix.utils:jar:1.6.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
+I. Included Third-Party Software
+
+n/a
+
+II. Used Third-Party Software
+
+This product uses software developed at
+The OSGi Alliance (http://www.osgi.org/).
+Copyright (c) OSGi Alliance (2000, 2009).
+Licensed under the Apache License 2.0.
+
+III. License Summary
+- Apache License 2.0

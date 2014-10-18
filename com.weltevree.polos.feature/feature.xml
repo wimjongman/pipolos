@@ -17,15 +17,4 @@
       [Enter License Description here.]
    </license>
 
-   <plugin
-         id="org.apache.felix.webconsole"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-   <plugin
-         id="org.apache.felix.fileinstall"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
 </feature>
