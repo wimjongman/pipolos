@@ -41,6 +41,7 @@
       <feature id="com.weltevree.polos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.ecf.raspberrypi.gpio.feature"/>
       <feature id="org.eclipse.ecf.raspberrypi.gpio.pi4j.feature"/>
+      <feature id="org.apache.felix.fileinstall.feature" version="1.0.0.qualifier"/>
    </features>
 
    <configurations>
