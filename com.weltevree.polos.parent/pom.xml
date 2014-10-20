@@ -21,7 +21,7 @@
 		<repository>
 			<id>ecf-gpio</id>
 			<layout>p2</layout>
-			<url>https://hudson.eclipse.org/ecf/job/C-GPIO-PI4J/lastSuccessfulBuild/artifact/repository/</url>
+			<url>https://hudson.eclipse.org/ecf/job/C-GPIO-PI4J-WIM/lastSuccessfulBuild/artifact/repository/</url>
 		</repository>
 		
 		<repository>

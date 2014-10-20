@@ -1,7 +1,8 @@
 #!/bin/bash
 cp=$(find -name "org.eclipse.equinox.launcher_*.jar" | sort | tail -1);
-
-javaOpts="-Dorg.osgi.service.http.port=8888 -Dnet.slp.interfaces=192.168.1.21"
+hostname=$(hostname -I)
+echo ${hostname}
+javaOpts="-Dorg.osgi.service.http.port=8888 -Dnet.slp.interfaces=${hostname} -Decf.generic.server.hostname=${hostname}"
 opts="-consolelog -console -initialize -noExit"
 debugOpts="-agentlib:jdwp=transport=dt_socket,address=4444,server=y,suspend=y"
 if [ -z "$1" ]; then
