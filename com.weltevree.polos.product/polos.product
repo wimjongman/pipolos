@@ -46,6 +46,7 @@
    </features>
 
    <configurations>
+      <plugin id="org.apache.felix.fileinstall" autoStart="true" startLevel="4" />
       <plugin id="org.apache.felix.webconsole" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.ecf.osgi.services.distribution" autoStart="true" startLevel="4" />
