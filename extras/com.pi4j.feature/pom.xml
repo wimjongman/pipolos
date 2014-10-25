@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>com.weltevree.polos.parent</artifactId>
+    <artifactId>com.weltevree.pipolos.parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-	<relativePath>../../com.weltevree.polos.parent</relativePath>
-  	<groupId>polos</groupId>
+	<relativePath>../../com.weltevree.pipolos.parent</relativePath>
+  	<groupId>pipolos</groupId>
   </parent>
   <artifactId>com.pi4j.feature</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
-  <groupId>polos</groupId>
+  <groupId>pipolos</groupId>
 </project>
