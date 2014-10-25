@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.weltevree.polos.feature"
-      label="polos Server"
+      id="com.weltevree.pipolos.feature"
+      label="pipolos Server"
       version="1.0.0.qualifier"
       provider-name="WELTEVREE">
 

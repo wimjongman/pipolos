@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Plain Old OSGi Server" uid="com.weltevree.polos.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Plain Old OSGi Server" uid="com.weltevree.pipolos.product" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -20,7 +20,7 @@
 
    <windowImages/>
 
-   <launcher name="polos">
+   <launcher name="pipolos">
       <solaris/>
       <win useIco="false">
          <bmp/>
@@ -34,11 +34,11 @@
    </plugins>
 
    <features>
-      <feature id="com.weltevree.polos.feature" version="1.0.0.qualifier" installMode="root"/>
+      <feature id="com.weltevree.pipolos.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.equinox.core.feature" installMode="root"/>
       <feature id="org.eclipse.equinox.server.jetty" installMode="root"/>
       <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
-      <feature id="com.weltevree.polos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
+      <feature id="com.weltevree.pipolos.ecf.remoteservices.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.ecf.raspberrypi.gpio.feature"/>
       <feature id="org.eclipse.ecf.raspberrypi.gpio.pi4j.feature"/>
       <feature id="org.apache.felix.fileinstall.feature" version="1.0.0.qualifier"/>
@@ -46,7 +46,7 @@
    </features>
 
    <configurations>
-      <plugin id="org.apache.felix.fileinstall" autoStart="true" startLevel="4" />
+      <plugin id="org.apache.felix.fileinstall" autoStart="false" startLevel="4" />
       <plugin id="org.apache.felix.webconsole" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.ecf.osgi.services.distribution" autoStart="true" startLevel="4" />

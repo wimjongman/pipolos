@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>com.weltevree.polos.parent</artifactId>
+	<artifactId>com.weltevree.pipolos.parent</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -125,15 +125,15 @@
 			</plugin>
 		</plugins>
 	</build>
-	<groupId>polos</groupId>
+	<groupId>pipolos</groupId>
 	<modules>
-		<module>../com.weltevree.polos.feature</module>
-		<module>../com.weltevree.polos.product</module>
+		<module>../com.weltevree.pipolos.feature</module>
+		<module>../com.weltevree.pipolos.product</module>
 		<!-- can be removed from build and product -->
 		<module>../extras/org.apache.felix.webconsole</module>
 		<module>../extras/org.apache.felix.webconsole.feature</module>
 		<module>../extras/org.apache.felix.fileinstall</module>
 		<module>../extras/org.apache.felix.fileinstall.feature</module>
-		<module>../extras/com.weltevree.polos.ecf.remoteservices.feature</module>
+		<module>../extras/com.weltevree.pipolos.ecf.remoteservices.feature</module>
 	</modules>
 </project>

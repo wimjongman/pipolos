@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.weltevree.polos.ecf.remoteservices.feature"
+      id="com.weltevree.pipolos.ecf.remoteservices.feature"
       label="ECF Remote Services"
       version="1.0.0.qualifier"
       provider-name="WELTEVREE">

@@ -4,19 +4,19 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>com.weltevree.polos.parent</artifactId>
+		<artifactId>com.weltevree.pipolos.parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../com.weltevree.polos.parent</relativePath>
-		<groupId>polos</groupId>
+		<relativePath>../com.weltevree.pipolos.parent</relativePath>
+		<groupId>pipolos</groupId>
 	</parent>
-	<groupId>polos</groupId>
-	<artifactId>com.weltevree.polos.product</artifactId>
+	<groupId>pipolos</groupId>
+	<artifactId>com.weltevree.pipolos.product</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 
 
     <properties>
-        <product.shortname>polos</product.shortname>
+        <product.shortname>pipolos</product.shortname>
     </properties>
 
 	<build>
@@ -45,7 +45,7 @@
                     <products>
                         <product>
 	                       <!-- id = UID to be located in ws\target\products\?.?.?.product directory and the required ?.product file will contain an uid=.. -->
-                            <id>com.weltevree.polos.product</id>
+                            <id>com.weltevree.pipolos.product</id>
                             <archiveFileName>${product.shortname}</archiveFileName>
                         </product>
                     </products>
