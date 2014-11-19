@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>com.weltevree.polos.parent</artifactId>
+    <artifactId>com.weltevree.pipolos.parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-<relativePath>../../com.weltevree.polos.parent</relativePath>
-  	<groupId>polos</groupId>
+<relativePath>../../com.weltevree.pipolos.parent</relativePath>
+  	<groupId>pipolos</groupId>
   </parent>
   <artifactId>org.apache.felix.webconsole</artifactId>
   <version>4.2.2.all</version>
