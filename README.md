@@ -29,17 +29,17 @@ Find the product of your choice in directory
 
 ### Run on Raspberry
 
-Install Java and unpack the 
+Install Java 8 and unpack the 
 
      pipolos-linux.gtk.x86.zip 
      
 file into a directory of your choice. Then
 
-     chmod a+x pipolos
+     chmod a+x pipolos.sh
      
 to make it executable and run it by
 
-     ./pipolos
+     sudo ./pipolos.sh
      
 ### Opening the Apache Webconsole
 
