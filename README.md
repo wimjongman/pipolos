@@ -1,4 +1,4 @@
-### PIPOLOS - Plain Old OSGi Server or the Raspberry PI    <img style="float: right" src="https://raw.githubusercontent.com/wimjongman/polos/master/polos.png" height="50"/>
+### PIPOLOS - Plain Old OSGi Server or the Raspberry PI    <img style="float: right" src="https://raw.githubusercontent.com/wimjongman/polos/master/pipolos.png" height="50"/>
 Incubation kit for building OSGi / Equinox applications.
 
 This minimal OSGi server contains:
