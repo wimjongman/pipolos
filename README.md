@@ -41,7 +41,7 @@ to make it executable and run it by
 
      ./pipolos
      
-### Opening the console
+### Opening the Apache Webconsole
 
      http://localhost:8888/system/console // replace localhost as needed
      user: admin
