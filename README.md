@@ -40,6 +40,12 @@ file into a directory of your choice. Then
 to make it executable and run it by
 
      sudo ./pipolos.sh
+
+## Egg Cooking GUI
+
+An example project that is able to discover the ECF GPIO pin services that run on the Raspberry Pi can be found here
+
+https://github.com/wimjongman/eggclient
      
 ### Opening the Apache Webconsole
 
@@ -47,5 +53,5 @@ to make it executable and run it by
      user: admin
      pass: admin
 
-### See Also
+## See Also
 Bryan Hunts work @ [https://github.com/BryanHunt/bndtools-equinox-app-kit](https://github.com/BryanHunt/bndtools-equinox-app-kit) (simmilar idea but not related)
