@@ -41,7 +41,15 @@ to make it executable and run it by
 
      sudo ./pipolos.sh
 
-## Egg Cooking GUI
+On the console prompt you can start and stop the pin bundles that will start and stop the remote services. These services can be discovered by the egg cooking gui.
+
+## Extra Info
+
+### Apacha File Install
+
+You can provision new bundles by dropping them in the "load" directory without restarting your server. You can unprovision bundles at runtime by removing them from the "load" directory. For this to work make sure to start the fileinstall bundle first.
+
+### Egg Cooking GUI
 
 An example project that is able to discover the ECF GPIO pin services that run on the Raspberry Pi can be found here
 
@@ -53,5 +61,5 @@ https://github.com/wimjongman/eggclient
      user: admin
      pass: admin
 
-## See Also
+### Related Work
 Bryan Hunts work @ [https://github.com/BryanHunt/bndtools-equinox-app-kit](https://github.com/BryanHunt/bndtools-equinox-app-kit) (simmilar idea but not related)
