@@ -45,7 +45,7 @@ On the console prompt you can start and stop the pin bundles that will start and
 
 ## Extra Info
 
-### Apacha File Install
+### Apache File Install
 
 You can provision new bundles by dropping them in the "load" directory without restarting your server. You can unprovision bundles at runtime by removing them from the "load" directory. For this to work make sure to start the fileinstall bundle first.
 
